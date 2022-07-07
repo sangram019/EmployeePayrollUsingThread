@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace EmployeePayrollUsingThread
+﻿namespace EmployeePayrollUsingThread
 {
     public class Program
     {
@@ -20,7 +16,6 @@ namespace EmployeePayrollUsingThread
             employeePayrollOperations.addEmployeeToPayrollWithThread(employeeDetails);
             DateTime stopDateTimeThread = DateTime.Now;
             Console.WriteLine("Duration with Thread: " + (stopDateTimeThread - startDateTimeThread));
-
 
         }
     }

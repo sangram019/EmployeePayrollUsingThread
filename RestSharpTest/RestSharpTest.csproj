@@ -13,11 +13,10 @@
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta1" />
-    <PackageReference Include="RestSharp" Version="108.0.2-alpha.0.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmployeePayrollTest\EmployeePayrollTest.csproj" />
     <ProjectReference Include="..\EmployeePayrollUsingThread\EmployeePayrollUsingThread.csproj" />
   </ItemGroup>
 
